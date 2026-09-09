@@ -4,7 +4,6 @@
   "compilerOptions": {
     "isolatedModules": true,
     "preserveSymlinks": true,
-    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
@@ -14,7 +13,9 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
+    "declarationMap": false,
+    "inlineSources": true,
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "importHelpers": true,
