@@ -7,7 +7,7 @@ import { environment } from './environments/environment';
 
 const main = async () => {
   try {
-    await platformBrowserDynamic().bootstrapModule(AppModule, { applicationProviders: [provideZoneChangeDetection()], });
+    await platformBrowserDynamic().bootstrapModule(AppModule, { applicationProviders: [provideZoneChangeDetection()], applicationProviders: [object Object],});
   } catch (error) {
     console.error(error);
   }
