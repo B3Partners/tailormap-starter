@@ -43,9 +43,10 @@
  */
 
 /***************************************************************************************************
- * Zone JS is required by default for Angular itself.
+ * Zone JS is required by default for Angular itself and is loaded via the "zone.js" entry in the
+ * "polyfills" option in angular.json (rather than being imported here), so that the Angular CLI's
+ * build and unit-test tooling can detect it statically.
  */
-import 'zone.js';  // Included with Angular CLI.
 
 
 /***************************************************************************************************
